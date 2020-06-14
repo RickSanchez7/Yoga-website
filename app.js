@@ -43,9 +43,9 @@ const eventListeners = (() => {
   closeBtn.addEventListener("click", function () {
     ui.closeModal(event);
   });
-  //   window.addEventListener("click", function (event) {
-  //     if (event.target.contains("show-modal")) {
-  //       ui.closeModal(event);
-  //     }
-  //   });
+  window.addEventListener("click", function (event) {
+    if (event.target === modal) {
+      ui.closeModal(event);
+    }
+  });
 })();
