@@ -44,7 +44,7 @@ body {
   color: var(--main-pink1);
 }
 .nav-toggle {
-  font-size: 2.2rem;
+  font-size: 2rem;
   color: hsl(205, 100%, 96%);
   background: transparent;
   border-color: transparent;
@@ -131,7 +131,6 @@ body {
 .header2 {
   margin: 0;
   padding: 0;
-  /* clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%); */
 }
 .image {
   min-height: 100vh;
@@ -201,8 +200,9 @@ body {
 }
 .underline {
   background: var(--yellow);
-  width: 5rem;
+  width: 4rem;
   height: 0.25rem;
+  margin-bottom: 1rem;
 }
 .paragraph {
   letter-spacing: 0.1rem;
@@ -219,7 +219,7 @@ body {
 /* galery */
 
 .section-title-text2 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: "Lora", serif;
   color: var(--main-pink1);
   text-transform: capitalize;
@@ -231,7 +231,7 @@ body {
   height: 0.25rem;
 }
 .section-title-left {
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 .work-container {
   max-width: 90vw;
@@ -283,6 +283,9 @@ body {
 }
 
 @media screen and (min-width: 992px) {
+  .section-title-left {
+    margin-left: 5rem;
+  }
   .work-container {
     height: 120vh;
     grid-template-columns: repeat(4, 1fr);
