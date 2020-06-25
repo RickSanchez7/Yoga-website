@@ -71,7 +71,7 @@ body {
   letter-spacing: 0.25rem;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  /* line-height: 170%; */
+  line-height: 170%;
   transition: all 0.3s;
 }
 .links a:hover {
@@ -135,7 +135,7 @@ body {
 .image {
   min-height: 100vh;
   background: url("./img/Yoga-1.jpg");
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
