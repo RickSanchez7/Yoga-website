@@ -1,7 +1,7 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 
 :root {
   --main-pink1: rgb(247, 141, 159);
@@ -19,7 +19,7 @@ body {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url("../img/bodyBcg.jpeg");
+    url('../img/bodyBcg.jpeg');
 }
 
 .nav-center {
@@ -40,7 +40,7 @@ body {
 }
 .header {
   font-size: 40px;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   color: var(--main-pink1);
 }
 .nav-toggle {
@@ -56,7 +56,7 @@ body {
   color: var(--main-pink1);
 }
 .links {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-size: 1.4rem;
   text-transform: capitalize;
   list-style: none;
@@ -134,19 +134,15 @@ body {
 }
 .image {
   min-height: 100vh;
-  background: url("./img/Yoga-1.jpg");
+  background: url('./img/Yoga-1.jpg') center/cover;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
-/* .image img {
-  max-width: 100%;
-  height: auto;
-} */
 .container {
   color: var(--main-pink1);
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   display: grid;
   text-align: right;
   margin-right: 1rem;
@@ -196,7 +192,7 @@ body {
 }
 .section-title-text {
   font-size: 3rem;
-  font-family: "La Belle Aurore", cursive;
+  font-family: 'La Belle Aurore', cursive;
   color: var(--main-pink1);
   margin-top: 2rem;
   text-transform: capitalize;
@@ -223,7 +219,7 @@ body {
 
 .section-title-text2 {
   font-size: 3rem;
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   color: var(--main-pink1);
   text-transform: capitalize;
   margin-top: 1rem;
@@ -299,10 +295,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
-      "one one two three"
-      "one one four four"
-      "five six seven seven"
-      "eight nine seven seven";
+      'one one two three'
+      'one one four four'
+      'five six seven seven'
+      'eight nine seven seven';
   }
   .item-1 {
     grid-area: one;
@@ -351,14 +347,14 @@ body {
   align-items: center;
 }
 .work-modal-item {
-  background: url("./img/galeria-1.jpg") center/cover;
-  background-size: 100% 100%;
-  height: 70vh;
-  width: 80vw;
+  background: url('./img/galeria-1.jpg') center/cover;
+  height: 40vh;
+  width: 70vw;
   border: 0.5rem solid var(--main-pink1);
   border-radius: 0.4rem;
 }
 .work-modal-item img {
+  width: 80%;
 }
 
 @media screen and (min-width: 768px) {
