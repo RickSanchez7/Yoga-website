@@ -1,0 +1,23 @@
+{
+  "name": "yoga-website",
+  "version": "1.0.0",
+  "description": "Website built with: HTML5, CSS3 & JavaScript",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickSanchez7/Yoga-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickSanchez7/Yoga-website/issues"
+  },
+  "homepage": "https://github.com/RickSanchez7/Yoga-website#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

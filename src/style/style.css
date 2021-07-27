@@ -19,7 +19,7 @@ body {
       rgba(255, 255, 255, 0.7),
       rgba(255, 255, 255, 0.7)
     ),
-    url('../img/bodyBcg.jpeg');
+    url('../../img/bodyBcg.jpeg');
 }
 
 .nav-center {
@@ -77,7 +77,6 @@ body {
 .links a:hover {
   color: var(--main-pink1);
   background: hsl(205, 100%, 96%);
-  padding-left: 1.5rem;
   border-right: solid 3px rgb(0, 153, 255);
 }
 .contactos {
@@ -118,7 +117,6 @@ body {
     color: var(--main-pink1);
     padding-bottom: 0;
     background: aqua;
-    font-size: 125%;
     border-right: none;
   }
   .contactos {
@@ -134,8 +132,8 @@ body {
 }
 .image {
   min-height: 100vh;
-  background: url('./img/Yoga-1.jpg') center/cover;
-  background-size: cover;
+  min-width: 100%;
+  background: url('../../img/Yoga-1.jpg') center/cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -274,7 +272,6 @@ body {
   transform: scale(1.3) translate(-50%, -50%);
 }
 .work-item-icon:hover {
-  /* transform: translate(-100%, -100%); */
   color: var(--main-pink1);
   cursor: pointer;
 }
@@ -347,7 +344,7 @@ body {
   align-items: center;
 }
 .work-modal-item {
-  background: url('./img/galeria-1.jpg') center/cover;
+  background: url('../../img/galeria-1.jpg') center/cover;
   height: 40vh;
   width: 70vw;
   border: 0.5rem solid var(--main-pink1);
