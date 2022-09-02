@@ -135,7 +135,7 @@ body {
   /* min-height: 70vh; */
   /* padding-top: 100px; */
   height: 500px;
-  /* min-width: 100%; */
+  min-width: 100%;
   background-image: url('../../img/Yoga-1.jpg');
   /* background-attachment: fixed; */
   background-position: center;
