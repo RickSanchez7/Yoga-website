@@ -33,7 +33,7 @@ body {
   background: aqua;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .logo {
   height: 50px;
@@ -57,7 +57,7 @@ body {
 }
 .links {
   font-family: 'Roboto';
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   list-style: none;
   width: 11rem;
@@ -127,15 +127,26 @@ body {
 /* end of nav */
 /* header */
 .header2 {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
+  padding-top: 50px;
 }
 .image {
-  min-height: 100vh;
-  min-width: 100%;
-  background: url('../../img/Yoga-1.jpg') center/cover;
-  background-attachment: fixed;
+  /* min-height: 70vh; */
+  /* padding-top: 100px; */
+  height: 500px;
+  /* min-width: 100%; */
+  background-image: url('../../img/Yoga-1.jpg');
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 100vh;
+  }
 }
 
 .container {
